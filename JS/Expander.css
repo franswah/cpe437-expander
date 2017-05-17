@@ -1,0 +1,37 @@
+.expander-block {
+   border: 1px solid blue;
+}
+
+.expander {
+      margin: 10px;
+      height: 100%;
+      width: 100%;
+}
+
+.hidden {
+   display: none;
+}
+
+.button {
+   height: auto;
+   width: auto;
+   max-height: 30px;
+   max-width: 30px;
+}
+
+.button-block {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.title-block {
+   background-color: #ff9999;
+   padding: 5px;
+   display: inline-block;
+   cursor: pointer;
+   width: 400px;
+}
+
+.title-block.expanded {
+   background-color: #99ff99;
+}
